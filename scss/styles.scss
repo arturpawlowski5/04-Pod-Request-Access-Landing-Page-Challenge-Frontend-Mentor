@@ -1,0 +1,35 @@
+/* Import */
+
+@import "container";
+@import "logo";
+@import "main";
+@import "photo";
+@import "dots";
+@import "attribution";
+@import "variables";
+@import "error";
+@import "tablets";
+@import "mobile";
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: "Chivo", sans-serif;
+	font-size: 1.125rem; /* 18px */
+	line-height: 1.75rem; /* 28px */
+	font-weight: 300; /* Chivo Light */
+	color: var(--light-gray);
+	background-color: var(--super-dark-gray);
+	position: relative;
+}

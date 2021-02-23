@@ -1,0 +1,23 @@
+/* Warning */
+
+#info-message {
+	width: 30vw;
+	position: relative;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.validate-msg {
+	text-align: center;
+	color: var(--light-lemon);
+}
+
+.error-msg {
+	text-align: center;
+	color: var(--error);
+}
+
+.error-border {
+	border: solid 2px var(--error) !important;
+}

@@ -1,0 +1,13 @@
+/* Colors */
+
+:root {
+	--white: hsl(0, 0%, 100%); /* #FFFFFF */
+	--white-50: hsla(0, 0%, 100%, 0.5); /* #FFFFFF 50% Opacity*/
+	--light-lemon: hsl(157, 74%, 62%); /* #54E6AF */
+	--light-lemon-hover: hsl(157, 100%, 85%); /* #B3FFE2 */
+	--light-gray: hsl(225, 40%, 83%); /* #C2CBE5 */
+	--middle-gray: hsl(225, 21%, 45%); /* #5A668A */
+	--dark-gray: hsl(225, 26%, 23%); /* #2C344B */
+	--super-dark-gray: hsl(224, 35%, 11%); /* #121725 */
+	--error: hsl(343, 100%, 58%); /* #FF2965 */
+}
